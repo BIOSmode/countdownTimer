@@ -59,7 +59,7 @@ public:
     QLCDNumber *BDM2;
     QLCDNumber *BDS2;
     QLabel *label_6;
-    QPushButton *BDset1_2;
+    QPushButton *BDset2;
     QMenuBar *menubar;
     QMenu *menuAnthor;
     QStatusBar *statusbar;
@@ -179,10 +179,10 @@ public:
         label_6->setObjectName(QStringLiteral("label_6"));
         label_6->setGeometry(QRect(530, 600, 21, 61));
         label_6->setStyleSheet(QString::fromUtf8("font: 28pt \"\351\273\221\344\275\223\";"));
-        BDset1_2 = new QPushButton(DB);
-        BDset1_2->setObjectName(QStringLiteral("BDset1_2"));
-        BDset1_2->setGeometry(QRect(720, 610, 181, 41));
-        BDset1_2->setStyleSheet(QLatin1String("background-color:rgb(255, 190, 26);\n"
+        BDset2 = new QPushButton(DB);
+        BDset2->setObjectName(QStringLiteral("BDset2"));
+        BDset2->setGeometry(QRect(720, 610, 181, 41));
+        BDset2->setStyleSheet(QLatin1String("background-color:rgb(255, 190, 26);\n"
 "font: 16pt \"Arial\";"));
         tabWidget->addTab(DB, QString());
         Countdown->setCentralWidget(centralwidget);
@@ -226,7 +226,7 @@ public:
         label_5->setText(QApplication::translate("Countdown", "  Negative side", Q_NULLPTR));
         BDstart2->setText(QApplication::translate("Countdown", "Start", Q_NULLPTR));
         label_6->setText(QApplication::translate("Countdown", ":", Q_NULLPTR));
-        BDset1_2->setText(QApplication::translate("Countdown", "Set Negative side", Q_NULLPTR));
+        BDset2->setText(QApplication::translate("Countdown", "Set Negative side", Q_NULLPTR));
         tabWidget->setTabText(tabWidget->indexOf(DB), QApplication::translate("Countdown", " DEBATE", Q_NULLPTR));
         menuAnthor->setTitle(QApplication::translate("Countdown", "Anthor", Q_NULLPTR));
     } // retranslateUi

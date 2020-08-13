@@ -389,7 +389,7 @@ font: 16pt &quot;Arial&quot;;</string>
        <string>:</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="BDset1_2">
+     <widget class="QPushButton" name="BDset2">
       <property name="geometry">
        <rect>
         <x>720</x>

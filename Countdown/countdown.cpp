@@ -30,8 +30,8 @@ Countdown::Countdown(QWidget *parent)
     ui->PSS->setSegmentStyle(QLCDNumber::Flat);
     ui->BDM1->setSegmentStyle(QLCDNumber::Flat);
     ui->BDS1->setSegmentStyle(QLCDNumber::Flat);
-    ui->BDM1->setSegmentStyle(QLCDNumber::Flat);
-    ui->BDS1->setSegmentStyle(QLCDNumber::Flat);
+    ui->BDM2->setSegmentStyle(QLCDNumber::Flat);
+    ui->BDS2->setSegmentStyle(QLCDNumber::Flat);
 }
 
 Countdown::~Countdown()
