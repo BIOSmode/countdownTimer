@@ -79,7 +79,7 @@ Distributed under the Mozilla Public License 2.0. See `LICENSE` for more informa
 
 Your Name - sunguiyu96@gmail.com
 
-Project Link: [https://github.com/BIOSmode/TLEDownloader](https://github.com/BIOSmode/TLEDownloader)
+Project Link: [https://github.com/BIOSmode/TLEDownloader](https://github.com/BIOSmode/countdownTimer)
 
 
 
